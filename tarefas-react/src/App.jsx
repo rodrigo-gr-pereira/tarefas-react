@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import { TaskProvider } from "./context/TaskContext";
+import { TaskProvider } from "./context/TaskProvider";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Settings from "./pages/Settings";
