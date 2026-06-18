@@ -3,8 +3,10 @@ import TaskList from "../components/TaskList";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Gerenciador de Tarefas</h1>
+    <div className="max-w-lg mx-auto">
+      <h1 className="text-2xl font-bold mb-4 text-indigo-700">
+        Gerenciador de Tarefas
+      </h1>
       <TaskForm />
       <TaskList />
     </div>
