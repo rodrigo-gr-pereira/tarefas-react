@@ -1,7 +1,11 @@
 export default function About() {
   return (
-    <h2>
-      Sobre: Este é um projeto React intermediário com Context API e Router.
-    </h2>
+    <div className="max-w-lg mx-auto">
+      <h2 className="text-xl font-semibold mb-2">Sobre</h2>
+      <p>
+        Este é um projeto React intermediário com Context API, Router e Tailwind
+        v4 com suporte a dark mode.
+      </p>
+    </div>
   );
 }
